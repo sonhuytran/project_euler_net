@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\004LargestPalindromeProduct\bin\Release\004LargestPalindromeProduct.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\004LargestPalindromeProduct\bin\Release\004LargestPalindromeProduct.pdb
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\004LargestPalindromeProduct\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\004LargestPalindromeProduct\obj\x86\Release\004LargestPalindromeProduct.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\004LargestPalindromeProduct\obj\x86\Release\004LargestPalindromeProduct.pdb
