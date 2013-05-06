@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\001MultiplesOf3And5\bin\Release\001MultiplesOf3And5.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\001MultiplesOf3And5\bin\Release\001MultiplesOf3And5.pdb
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\001MultiplesOf3And5\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\001MultiplesOf3And5\obj\x86\Release\001MultiplesOf3And5.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\001MultiplesOf3And5\obj\x86\Release\001MultiplesOf3And5.pdb
