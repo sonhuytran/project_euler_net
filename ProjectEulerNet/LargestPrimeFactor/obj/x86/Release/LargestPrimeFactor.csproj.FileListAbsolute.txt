@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\LargestPrimeFactor\bin\Release\LargestPrimeFactor.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\LargestPrimeFactor\bin\Release\LargestPrimeFactor.pdb
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\LargestPrimeFactor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\LargestPrimeFactor\obj\x86\Release\LargestPrimeFactor.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\LargestPrimeFactor\obj\x86\Release\LargestPrimeFactor.pdb

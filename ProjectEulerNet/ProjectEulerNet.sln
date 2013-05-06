@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001MultiplesOf3And5", "001M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002EvenFibonacciNumbers", "002EvenFibonacciNumbers\002EvenFibonacciNumbers.csproj", "{B54E636B-3C9F-47B4-90E8-7DC0DAF3730B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestPrimeFactor", "LargestPrimeFactor\LargestPrimeFactor.csproj", "{A056F958-30E3-476C-8949-CC299DEA7942}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{B54E636B-3C9F-47B4-90E8-7DC0DAF3730B}.Debug|x86.Build.0 = Debug|x86
 		{B54E636B-3C9F-47B4-90E8-7DC0DAF3730B}.Release|x86.ActiveCfg = Release|x86
 		{B54E636B-3C9F-47B4-90E8-7DC0DAF3730B}.Release|x86.Build.0 = Release|x86
+		{A056F958-30E3-476C-8949-CC299DEA7942}.Debug|x86.ActiveCfg = Debug|x86
+		{A056F958-30E3-476C-8949-CC299DEA7942}.Debug|x86.Build.0 = Debug|x86
+		{A056F958-30E3-476C-8949-CC299DEA7942}.Release|x86.ActiveCfg = Release|x86
+		{A056F958-30E3-476C-8949-CC299DEA7942}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
