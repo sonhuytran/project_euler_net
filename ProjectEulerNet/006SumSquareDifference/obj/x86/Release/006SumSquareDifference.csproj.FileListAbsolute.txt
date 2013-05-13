@@ -1,0 +1,5 @@
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\006SumSquareDifference\bin\Release\006SumSquareDifference.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\006SumSquareDifference\bin\Release\006SumSquareDifference.pdb
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\006SumSquareDifference\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\006SumSquareDifference\obj\x86\Release\006SumSquareDifference.exe
+C:\Users\mtpham\Documents\GitHub\project_euler_net\ProjectEulerNet\006SumSquareDifference\obj\x86\Release\006SumSquareDifference.pdb

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004LargestPalindromeProduct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005SmallestMultiple", "005SmallestMultiple\005SmallestMultiple.csproj", "{6781057F-C5F1-452C-9EC0-E83AA8FFA68D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006SumSquareDifference", "006SumSquareDifference\006SumSquareDifference.csproj", "{61370329-552A-4146-AFD9-6221C7DA73E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -37,6 +39,10 @@ Global
 		{6781057F-C5F1-452C-9EC0-E83AA8FFA68D}.Debug|x86.Build.0 = Debug|x86
 		{6781057F-C5F1-452C-9EC0-E83AA8FFA68D}.Release|x86.ActiveCfg = Release|x86
 		{6781057F-C5F1-452C-9EC0-E83AA8FFA68D}.Release|x86.Build.0 = Release|x86
+		{61370329-552A-4146-AFD9-6221C7DA73E9}.Debug|x86.ActiveCfg = Debug|x86
+		{61370329-552A-4146-AFD9-6221C7DA73E9}.Debug|x86.Build.0 = Debug|x86
+		{61370329-552A-4146-AFD9-6221C7DA73E9}.Release|x86.ActiveCfg = Release|x86
+		{61370329-552A-4146-AFD9-6221C7DA73E9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
