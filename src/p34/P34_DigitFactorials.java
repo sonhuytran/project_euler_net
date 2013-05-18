@@ -31,7 +31,7 @@ public class P34_DigitFactorials {
 		int[] factorials = digitFactorials();
 		ArrayList<Long> curiousNumbers = new ArrayList<Long>();
 
-		for (long i = 3; i < 10000000; i++) {
+		for (long i = 3; i < 2540160; i++) {
 			long temp = i;
 			long sum = 0;
 
