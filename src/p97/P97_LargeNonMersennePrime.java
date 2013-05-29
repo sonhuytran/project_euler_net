@@ -24,8 +24,3 @@ public class P97_LargeNonMersennePrime {
 		System.out.println(result);
 	}
 }
-// 
-//  3 1        9
-//       6   8   0
-//         2
-//7   
