@@ -35,7 +35,7 @@ public class Primes {
 	private boolean isPrime(int n) {
 		int root = (int) Math.sqrt(n + 1);
 
-		for (int i = 1; primeNumbers[i] <= root; i++) {
+		for (int i = 1; i < primeNumbers.length && primeNumbers[i] <= root; i++) {
 			if (n % primeNumbers[i] == 0) {
 				return false;
 			}
