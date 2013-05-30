@@ -9,18 +9,18 @@ package peutils;
  */
 public class Primes {
 
-	int[] primes;
+	int[] primeNumbers;
 	int nPrimes;
 
 	public Primes(int n) {
-		primes = new int[n + 1];
-		primes[1] = 2;
-		primes[2] = 3;
+		primeNumbers = new int[n + 1];
+		primeNumbers[1] = 2;
+		primeNumbers[2] = 3;
 		nPrimes = 2;
 		int p = 3;
 
 		while (nPrimes < n) {
-			p = primes[++nPrimes] = nextPrime(p);
+			p = primeNumbers[++nPrimes] = nextPrime(p);
 		}
 	}
 
@@ -35,8 +35,8 @@ public class Primes {
 	private boolean isPrime(int n) {
 		int root = (int) Math.sqrt(n + 1);
 
-		for (int i = 1; primes[i] <= root; i++) {
-			if (n % primes[i] == 0) {
+		for (int i = 1; primeNumbers[i] <= root; i++) {
+			if (n % primeNumbers[i] == 0) {
 				return false;
 			}
 		}
@@ -45,7 +45,7 @@ public class Primes {
 	}
 
 	public boolean isPrimeNumber(int number) {
-		if (number > primes[nPrimes]) {
+		if (number > primeNumbers[nPrimes]) {
 			return isPrime(number);
 		}
 
@@ -55,9 +55,9 @@ public class Primes {
 		while (low <= high) {
 			int mid = (low + high) / 2;
 
-			if (primes[mid] == number) {
+			if (primeNumbers[mid] == number) {
 				return true;
-			} else if (primes[mid] > number) {
+			} else if (primeNumbers[mid] > number) {
 				high = mid - 1;
 			} else {
 				low = mid + 1;
@@ -68,6 +68,6 @@ public class Primes {
 	}
 
 	public int[] getPrimes() {
-		return primes;
+		return primeNumbers;
 	}
 }
