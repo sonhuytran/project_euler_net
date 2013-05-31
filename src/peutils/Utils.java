@@ -4,7 +4,7 @@
 package peutils;
 
 /**
- * @author LG
+ * @author Son-Huy TRAN
  * 
  */
 public class Utils {
