@@ -29,7 +29,7 @@ public class P57_SquareRootConvergents {
 	 * @param args
 	 * @throws IOException
 	 */
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		BigInteger numerator = BigInteger.valueOf(1);
 		BigInteger denominator = BigInteger.valueOf(2);
 
