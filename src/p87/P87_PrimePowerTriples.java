@@ -17,17 +17,16 @@ public class P87_PrimePowerTriples {
 	public static void main(String[] args) {
 		Primes primes = new Primes(909);
 		int[] primeNumbers = primes.getPrimes();
-		boolean[] expressible = new boolean[50000000];
-
-		// Set<Integer> numbers = new HashSet<Integer>(1139575);
-
 		int max = 50000000;
+		int maxPower4 = (int) Math.pow(max, 1.0 / 4);
+		int maxPower3 = (int) Math.pow(max, 1.0 / 3);
+		boolean[] expressible = new boolean[max + 1];
 
-		for (int i = 1; primeNumbers[i] <= 86; i++) {
+		for (int i = 1; primeNumbers[i] <= maxPower4; i++) {
 			int prime4 = primeNumbers[i];
 			int power4 = prime4 * prime4 * prime4 * prime4;
 
-			for (int j = 1; primeNumbers[j] <= 368; j++) {
+			for (int j = 1; primeNumbers[j] <= maxPower3; j++) {
 				int prime3 = primeNumbers[j];
 				int sumPower43 = power4 + prime3 * prime3 * prime3;
 
