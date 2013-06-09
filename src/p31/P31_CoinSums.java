@@ -3,7 +3,6 @@
  */
 package p31;
 
-import java.util.Arrays;
 
 /**
  * @author Son-Huy TRAN
