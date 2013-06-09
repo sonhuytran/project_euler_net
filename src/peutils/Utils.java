@@ -8,6 +8,18 @@ package peutils;
  * 
  */
 public class Utils {
+
+	public static int concat(int number1, int number2) {
+		int temp = number2;
+
+		while (temp > 0) {
+			number1 *= 10;
+			temp /= 10;
+		}
+
+		return number1 + number2;
+	}
+
 	public static int largestCommonDivisor(int a, int b) {
 		while (b > 0) {
 			int temp = a % b;
