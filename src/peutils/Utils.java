@@ -93,4 +93,18 @@ public class Utils {
 
 		return number;
 	}
+
+	public static long combination(int n, int k) {
+		if (k < n / 2) {
+			k = n - k;
+		}
+
+		long result = 1;
+
+		for (int i = k + 1, j = 1; i <= n; i++, j++) {
+			result = result * i / j;
+		}
+
+		return result;
+	}
 }
