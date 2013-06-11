@@ -31,15 +31,13 @@ public class P113_NonBouncyNumbers {
 			}
 		}
 
-		long sum = 0;
+		long sumIncreasing = 0;
 
 		for (int i = 0; i < 10; i++) {
-			sum += count[i][1];
+			sumIncreasing += count[i][1];
 		}
 
-		sum--;
-
-		System.out.println(sum);
+		sumIncreasing--;
 
 		// count decreasing numbers
 		long[][] count2 = new long[10][digit];
@@ -61,15 +59,15 @@ public class P113_NonBouncyNumbers {
 			count2[0][j] = count2[9][j] + count2[0][j + 1] - 1;
 		}
 
-		long sum2 = 0;
+		long sumDecreasing = 0;
 
 		for (int i = 0; i < 10; i++) {
-			sum2 += count2[i][1];
+			sumDecreasing += count2[i][1];
 		}
 
-		sum2--;
+		sumDecreasing--;
 
-		System.out.println(sum2);
-		System.out.println(sum + sum2 - 9 * digit);
+		System.out.println(sumDecreasing);
+		System.out.println(sumIncreasing + sumDecreasing - 9 * digit);
 	}
 }
